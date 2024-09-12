@@ -1,0 +1,37 @@
+/* #countlabel{
+    text-align: center;
+    display: block;
+    font-size: 10em;
+    font-family:'Times New Roman', Times, serif;
+}
+#btncontainer{
+    text-align: center;
+    
+}
+.btnclass{
+    font-size: 2em;
+    color: aquamarine;
+    background-color: blue;
+    cursor: pointer;
+    transition: background-color 0.25px;
+    padding: 3px 3px;
+}
+.btnclass:hover{
+    background-color:rgb(160, 160, 248);
+} */
+
+
+body{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1em;
+    padding: 3px 30px;
+}
+#btnsubmit{
+    color:brown;
+    padding: 3px 3px;
+    font-size: 2em;
+}
+
+
+

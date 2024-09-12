@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#list-container {
+    margin-bottom: 20px;
+}
+
+#list-display {
+    list-style-type: none;
+    padding: 0;
+}
+
+#list-display li {
+    padding: 5px 0;
+}
+
+#list-display li:nth-child(3n) {
+    color: red;
+}
+
+#list-display li:not(:nth-child(3n)) {
+    color: black;
+}
+
+#text-field {
+    padding: 5px;
+    font-size: 16px;
+}
+
+#insert-button {
+    padding: 5px 10px;
+    font-size: 16px;
+}
