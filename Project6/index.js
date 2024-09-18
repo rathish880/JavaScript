@@ -64,7 +64,7 @@ const outputHTML=(matches)=>{
                 <h2>${match.name} (${match.abbr})  <span class="text-primary">${match.capital}</span></h2>
                 <small>${match.lat}/${match.long}</small>
             </div>`       
-    ).join("");
+        ).join("");
         matchList.innerHTML=HTML; 
     }
     

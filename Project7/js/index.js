@@ -24,7 +24,7 @@
             bookmark.push(bookmarks);
             localStorage.setItem('bookmarks',JSON.stringify(bookmark));
         }
-        else{ 
+        else{   
             var bookmark=JSON.parse(localStorage.getItem('bookmarks'));
             bookmark.push(bookmarks);
             localStorage.setItem('bookmarks',JSON.stringify(bookmark));
